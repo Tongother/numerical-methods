@@ -129,6 +129,6 @@ def act4():
     entryX3.grid(column=2, row=6)
 
     botonEnviar = tk.Button(ventana, text="Enviar datos", command=jacobi)
-    botonEnviar.grid(column=0, row=6)
+    botonEnviar.grid(column=0, row=7)
 
     ventana.mainloop()

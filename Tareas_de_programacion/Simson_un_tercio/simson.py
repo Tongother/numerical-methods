@@ -144,3 +144,5 @@ def act9():
 
     if __name__ == "__main__":
         App("sun-valley", "dark")
+
+act9()

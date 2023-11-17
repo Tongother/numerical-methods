@@ -66,7 +66,7 @@ def act5():
 
     ventana = tk.Tk()
 
-    LabelBienvenida = tk.Label(ventana, text="Bienvenido al programa 'Jacobi'")
+    LabelBienvenida = tk.Label(ventana, text="Bienvenido al programa 'Gauss Seidel'")
     LabelBienvenida.grid(column=1, row=0)
 
     LabelBienvenida = tk.Label(ventana, text="Por favor, ingrese su primera ecuacion")
@@ -80,9 +80,6 @@ def act5():
 
     entryFuncion2 = tk.Entry(ventana)
     entryFuncion2.grid(column=2, row=2)
-
-    LabelBienvenida = tk.Label(ventana, text="Por favor, ingrese su tercera ecuacion")
-    LabelBienvenida.grid(column=0, row=3)
 
     entryFuncion3 = tk.Entry(ventana)
     entryFuncion3.grid(column=2, row=3)
@@ -99,13 +96,7 @@ def act5():
     entryX2 = tk.Entry(ventana)
     entryX2.grid(column=2, row=5)
 
-    LabelBienvenida = tk.Label(ventana, text="Por favor, coloque el valor de x3")
-    LabelBienvenida.grid(column=0, row=6)
-
-    entryX3 = tk.Entry(ventana)
-    entryX3.grid(column=2, row=6)
-
-    botonEnviar = tk.Button(ventana, text="Enviar datos", command=jacobi)
+    botonEnviar = tk.Button(ventana, text="Enviar datos", command=gauss_seidel)
     botonEnviar.grid(column=0, row=6)
 
     ventana.mainloop()
