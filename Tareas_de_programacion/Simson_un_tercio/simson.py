@@ -142,7 +142,4 @@ def act9():
 
             self.run()
 
-    if __name__ == "__main__":
-        App("sun-valley", "dark")
-
-act9()
+    App("sun-valley", "dark")

@@ -44,7 +44,7 @@ try:
     if(opcion == 1):
         print("¡Bienvenido a solución númerica de ecuaciones de una variable!")
         read_key()
-        print("Por favor, elija una de los programas en los que le interesa ingresar:")
+        print("Por favor, elija una de los programas en los que le interesa ingresar:\n")
         case1 = int(input("1. Error absoluto 2. Bisección 3. Newton Raphson"))
         try:
             if(case1 == 1):
@@ -60,8 +60,8 @@ try:
     elif(opcion == 2):
         print("¡Bienvenido a sistema de ecuaciones lineales!")
         read_key()
-        print("Por favor, elija una de los programas en los que le interesa ingresar:")
-        case2 = int(input("1. Jacobi 2. Gauss-seidel"))
+        print("Por favor, elija una de los programas en los que le interesa ingresar:\n")
+        case2 = int(input("1. Jacobi 2. Gauss-seidel\n"))
         try:
             if(case2 == 1):
                 act4()
@@ -75,7 +75,7 @@ try:
         print("¡Bienvenido a interpolación, derivación e integración numérica!")
         read_key()
         print("Por favor, elija una de los programas en los que le interesa ingresar:")
-        case3 = int(input("1. Interpolación de newton 2. Lagrange"))
+        case3 = int(input("1. Interpolación de newton 2. Lagrange\n"))
         try:
             if(case3 == 1):
                 act6()
@@ -89,7 +89,7 @@ try:
         print("¡Bienvenido a integración numérica método del trapecio y Simpson 1/3!")
         read_key()
         print("Por favor, elija una de los programas en los que le interesa ingresar:")
-        case4 = int(input("1. Método del trapecio 2. Simpson 1/3"))
+        case4 = int(input("1. Método del trapecio 2. Simpson 1/3\n"))
         try:
             if(case4 == 1):
                 act8()
@@ -103,7 +103,7 @@ try:
         print("¡Bienvenido a aplica solución numérica de ecuaciones y sistemas de ecuaciones!")
         read_key()
         print("Por favor, elija una de los programas en los que le interesa ingresar:")
-        case5= int(input("1. Euler 2. Serie de taylor"))
+        case5= int(input("1. Euler 2. Serie de taylor\n"))
         try:
             if(case5 == 1):
                 act10()
